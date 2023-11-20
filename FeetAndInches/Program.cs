@@ -1,28 +1,33 @@
 ﻿
 
-Distanse distanse;
+Distanse distanse1, distanse2, distance3;
 
-Console.WriteLine("Введите количество футов");
+Console.WriteLine("Введите 1 значение футов");
+distanse1.feet = double.Parse(Console.ReadLine());
 
-distanse.feet = double.Parse(Console.ReadLine());
+Console.WriteLine("Введите 2 значение футов");
+distanse2.feet = double.Parse(Console.ReadLine());
 
-Console.WriteLine("Введите количество дюймов");
+Console.WriteLine("Введите 1 значение дюймов");
 
-distanse.inche = double.Parse(Console.ReadLine());
+distanse1.inche = double.Parse(Console.ReadLine());
+
+Console.WriteLine("Введите 2 значение дюймов");
+distanse2.inche = double.Parse(Console.ReadLine());
 
 
+distance3.sumFeet = (int)((distanse1.feet + distanse2.feet) + ((distanse1.inche + distanse2.inche)/12));
+distance3.sumInche = (distanse1.inche + distanse2.inche)%12;
 
-distanse.sum = (((int)distanse.inche / 12) + distanse.feet);
 
-double countOfInche = distanse.sum % 12;
-
-Console.WriteLine($"Результат: {distanse.sum}'- {countOfInche}''");
+Console.WriteLine($"Результат: {distance3.sumFeet}'- {distance3.sumInche}''");
 
 
 public struct Distanse
 {
    public double feet;
    public double inche;
-   public double sum;
+   public double sumFeet;
+   public double sumInche;
   
 }
