@@ -1,0 +1,15 @@
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/Divider/bin/Debug/net7.0/Divider
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/Divider/bin/Debug/net7.0/Divider.deps.json
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/Divider/bin/Debug/net7.0/Divider.runtimeconfig.json
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/Divider/bin/Debug/net7.0/Divider.dll
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/Divider/bin/Debug/net7.0/Divider.pdb
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/Divider/obj/Debug/net7.0/Divider.csproj.AssemblyReference.cache
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/Divider/obj/Debug/net7.0/Divider.GeneratedMSBuildEditorConfig.editorconfig
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/Divider/obj/Debug/net7.0/Divider.AssemblyInfoInputs.cache
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/Divider/obj/Debug/net7.0/Divider.AssemblyInfo.cs
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/Divider/obj/Debug/net7.0/Divider.csproj.CoreCompileInputs.cache
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/Divider/obj/Debug/net7.0/Divider.dll
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/Divider/obj/Debug/net7.0/refint/Divider.dll
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/Divider/obj/Debug/net7.0/Divider.pdb
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/Divider/obj/Debug/net7.0/Divider.genruntimeconfig.cache
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/Divider/obj/Debug/net7.0/ref/Divider.dll

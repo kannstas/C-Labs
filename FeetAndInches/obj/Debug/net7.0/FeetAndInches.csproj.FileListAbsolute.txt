@@ -1,0 +1,15 @@
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/MyCSharpLabs/Lab03/FeetAndInches/bin/Debug/net7.0/FeetAndInches
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/MyCSharpLabs/Lab03/FeetAndInches/bin/Debug/net7.0/FeetAndInches.deps.json
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/MyCSharpLabs/Lab03/FeetAndInches/bin/Debug/net7.0/FeetAndInches.runtimeconfig.json
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/MyCSharpLabs/Lab03/FeetAndInches/bin/Debug/net7.0/FeetAndInches.dll
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/MyCSharpLabs/Lab03/FeetAndInches/bin/Debug/net7.0/FeetAndInches.pdb
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/MyCSharpLabs/Lab03/FeetAndInches/obj/Debug/net7.0/FeetAndInches.csproj.AssemblyReference.cache
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/MyCSharpLabs/Lab03/FeetAndInches/obj/Debug/net7.0/FeetAndInches.GeneratedMSBuildEditorConfig.editorconfig
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/MyCSharpLabs/Lab03/FeetAndInches/obj/Debug/net7.0/FeetAndInches.AssemblyInfoInputs.cache
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/MyCSharpLabs/Lab03/FeetAndInches/obj/Debug/net7.0/FeetAndInches.AssemblyInfo.cs
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/MyCSharpLabs/Lab03/FeetAndInches/obj/Debug/net7.0/FeetAndInches.csproj.CoreCompileInputs.cache
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/MyCSharpLabs/Lab03/FeetAndInches/obj/Debug/net7.0/FeetAndInches.dll
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/MyCSharpLabs/Lab03/FeetAndInches/obj/Debug/net7.0/refint/FeetAndInches.dll
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/MyCSharpLabs/Lab03/FeetAndInches/obj/Debug/net7.0/FeetAndInches.pdb
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/MyCSharpLabs/Lab03/FeetAndInches/obj/Debug/net7.0/FeetAndInches.genruntimeconfig.cache
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/MyCSharpLabs/Lab03/FeetAndInches/obj/Debug/net7.0/ref/FeetAndInches.dll

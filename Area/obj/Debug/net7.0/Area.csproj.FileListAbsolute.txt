@@ -1,0 +1,15 @@
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/Area/bin/Debug/net7.0/Area
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/Area/bin/Debug/net7.0/Area.deps.json
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/Area/bin/Debug/net7.0/Area.runtimeconfig.json
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/Area/bin/Debug/net7.0/Area.dll
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/Area/bin/Debug/net7.0/Area.pdb
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/Area/obj/Debug/net7.0/Area.csproj.AssemblyReference.cache
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/Area/obj/Debug/net7.0/Area.GeneratedMSBuildEditorConfig.editorconfig
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/Area/obj/Debug/net7.0/Area.AssemblyInfoInputs.cache
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/Area/obj/Debug/net7.0/Area.AssemblyInfo.cs
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/Area/obj/Debug/net7.0/Area.csproj.CoreCompileInputs.cache
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/Area/obj/Debug/net7.0/Area.dll
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/Area/obj/Debug/net7.0/refint/Area.dll
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/Area/obj/Debug/net7.0/Area.pdb
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/Area/obj/Debug/net7.0/Area.genruntimeconfig.cache
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/Area/obj/Debug/net7.0/ref/Area.dll

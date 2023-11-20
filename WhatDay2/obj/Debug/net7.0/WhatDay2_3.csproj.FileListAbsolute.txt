@@ -1,0 +1,15 @@
+/Users/itprofil/Desktop/ITMO/C#/MyGit/MyCSharpLabs/WhatDay2/bin/Debug/net7.0/WhatDay2_3
+/Users/itprofil/Desktop/ITMO/C#/MyGit/MyCSharpLabs/WhatDay2/bin/Debug/net7.0/WhatDay2_3.deps.json
+/Users/itprofil/Desktop/ITMO/C#/MyGit/MyCSharpLabs/WhatDay2/bin/Debug/net7.0/WhatDay2_3.runtimeconfig.json
+/Users/itprofil/Desktop/ITMO/C#/MyGit/MyCSharpLabs/WhatDay2/bin/Debug/net7.0/WhatDay2_3.dll
+/Users/itprofil/Desktop/ITMO/C#/MyGit/MyCSharpLabs/WhatDay2/bin/Debug/net7.0/WhatDay2_3.pdb
+/Users/itprofil/Desktop/ITMO/C#/MyGit/MyCSharpLabs/WhatDay2/obj/Debug/net7.0/WhatDay2_3.csproj.AssemblyReference.cache
+/Users/itprofil/Desktop/ITMO/C#/MyGit/MyCSharpLabs/WhatDay2/obj/Debug/net7.0/WhatDay2_3.GeneratedMSBuildEditorConfig.editorconfig
+/Users/itprofil/Desktop/ITMO/C#/MyGit/MyCSharpLabs/WhatDay2/obj/Debug/net7.0/WhatDay2_3.AssemblyInfoInputs.cache
+/Users/itprofil/Desktop/ITMO/C#/MyGit/MyCSharpLabs/WhatDay2/obj/Debug/net7.0/WhatDay2_3.AssemblyInfo.cs
+/Users/itprofil/Desktop/ITMO/C#/MyGit/MyCSharpLabs/WhatDay2/obj/Debug/net7.0/WhatDay2_3.csproj.CoreCompileInputs.cache
+/Users/itprofil/Desktop/ITMO/C#/MyGit/MyCSharpLabs/WhatDay2/obj/Debug/net7.0/WhatDay2_3.dll
+/Users/itprofil/Desktop/ITMO/C#/MyGit/MyCSharpLabs/WhatDay2/obj/Debug/net7.0/refint/WhatDay2_3.dll
+/Users/itprofil/Desktop/ITMO/C#/MyGit/MyCSharpLabs/WhatDay2/obj/Debug/net7.0/WhatDay2_3.pdb
+/Users/itprofil/Desktop/ITMO/C#/MyGit/MyCSharpLabs/WhatDay2/obj/Debug/net7.0/WhatDay2_3.genruntimeconfig.cache
+/Users/itprofil/Desktop/ITMO/C#/MyGit/MyCSharpLabs/WhatDay2/obj/Debug/net7.0/ref/WhatDay2_3.dll

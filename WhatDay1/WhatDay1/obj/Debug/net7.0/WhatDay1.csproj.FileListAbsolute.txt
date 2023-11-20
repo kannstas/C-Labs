@@ -1,0 +1,15 @@
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/MyCSharpLabs/Lab04/WhatDay1/WhatDay1/bin/Debug/net7.0/WhatDay1
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/MyCSharpLabs/Lab04/WhatDay1/WhatDay1/bin/Debug/net7.0/WhatDay1.deps.json
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/MyCSharpLabs/Lab04/WhatDay1/WhatDay1/bin/Debug/net7.0/WhatDay1.runtimeconfig.json
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/MyCSharpLabs/Lab04/WhatDay1/WhatDay1/bin/Debug/net7.0/WhatDay1.dll
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/MyCSharpLabs/Lab04/WhatDay1/WhatDay1/bin/Debug/net7.0/WhatDay1.pdb
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/MyCSharpLabs/Lab04/WhatDay1/WhatDay1/obj/Debug/net7.0/WhatDay1.csproj.AssemblyReference.cache
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/MyCSharpLabs/Lab04/WhatDay1/WhatDay1/obj/Debug/net7.0/WhatDay1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/MyCSharpLabs/Lab04/WhatDay1/WhatDay1/obj/Debug/net7.0/WhatDay1.AssemblyInfoInputs.cache
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/MyCSharpLabs/Lab04/WhatDay1/WhatDay1/obj/Debug/net7.0/WhatDay1.AssemblyInfo.cs
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/MyCSharpLabs/Lab04/WhatDay1/WhatDay1/obj/Debug/net7.0/WhatDay1.csproj.CoreCompileInputs.cache
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/MyCSharpLabs/Lab04/WhatDay1/WhatDay1/obj/Debug/net7.0/WhatDay1.dll
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/MyCSharpLabs/Lab04/WhatDay1/WhatDay1/obj/Debug/net7.0/refint/WhatDay1.dll
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/MyCSharpLabs/Lab04/WhatDay1/WhatDay1/obj/Debug/net7.0/WhatDay1.pdb
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/MyCSharpLabs/Lab04/WhatDay1/WhatDay1/obj/Debug/net7.0/WhatDay1.genruntimeconfig.cache
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/MyCSharpLabs/Lab04/WhatDay1/WhatDay1/obj/Debug/net7.0/ref/WhatDay1.dll
