@@ -1,0 +1,15 @@
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/NumberToDigits/bin/Debug/net7.0/NumberToDigits
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/NumberToDigits/bin/Debug/net7.0/NumberToDigits.deps.json
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/NumberToDigits/bin/Debug/net7.0/NumberToDigits.runtimeconfig.json
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/NumberToDigits/bin/Debug/net7.0/NumberToDigits.dll
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/NumberToDigits/bin/Debug/net7.0/NumberToDigits.pdb
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/NumberToDigits/obj/Debug/net7.0/NumberToDigits.csproj.AssemblyReference.cache
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/NumberToDigits/obj/Debug/net7.0/NumberToDigits.GeneratedMSBuildEditorConfig.editorconfig
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/NumberToDigits/obj/Debug/net7.0/NumberToDigits.AssemblyInfoInputs.cache
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/NumberToDigits/obj/Debug/net7.0/NumberToDigits.AssemblyInfo.cs
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/NumberToDigits/obj/Debug/net7.0/NumberToDigits.csproj.CoreCompileInputs.cache
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/NumberToDigits/obj/Debug/net7.0/NumberToDigits.dll
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/NumberToDigits/obj/Debug/net7.0/refint/NumberToDigits.dll
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/NumberToDigits/obj/Debug/net7.0/NumberToDigits.pdb
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/NumberToDigits/obj/Debug/net7.0/NumberToDigits.genruntimeconfig.cache
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/NumberToDigits/obj/Debug/net7.0/ref/NumberToDigits.dll

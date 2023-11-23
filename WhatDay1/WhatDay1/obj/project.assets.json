@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/itprofil/Desktop/ITMO/C#/MyGit/MyCSharpLabs/MyCSharpLabs/Lab04/WhatDay1/WhatDay1/WhatDay1.csproj",
+      "projectUniqueName": "/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/WhatDay1/WhatDay1/WhatDay1.csproj",
       "projectName": "WhatDay1",
-      "projectPath": "/Users/itprofil/Desktop/ITMO/C#/MyGit/MyCSharpLabs/MyCSharpLabs/Lab04/WhatDay1/WhatDay1/WhatDay1.csproj",
+      "projectPath": "/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/WhatDay1/WhatDay1/WhatDay1.csproj",
       "packagesPath": "/Users/itprofil/.nuget/packages/",
-      "outputPath": "/Users/itprofil/Desktop/ITMO/C#/MyGit/MyCSharpLabs/MyCSharpLabs/Lab04/WhatDay1/WhatDay1/obj/",
+      "outputPath": "/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/WhatDay1/WhatDay1/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/itprofil/.nuget/NuGet/NuGet.Config"

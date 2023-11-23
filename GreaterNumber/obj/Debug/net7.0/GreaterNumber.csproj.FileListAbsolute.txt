@@ -1,0 +1,15 @@
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/GreaterNumber/bin/Debug/net7.0/GreaterNumber
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/GreaterNumber/bin/Debug/net7.0/GreaterNumber.deps.json
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/GreaterNumber/bin/Debug/net7.0/GreaterNumber.runtimeconfig.json
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/GreaterNumber/bin/Debug/net7.0/GreaterNumber.dll
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/GreaterNumber/bin/Debug/net7.0/GreaterNumber.pdb
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/GreaterNumber/obj/Debug/net7.0/GreaterNumber.csproj.AssemblyReference.cache
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/GreaterNumber/obj/Debug/net7.0/GreaterNumber.GeneratedMSBuildEditorConfig.editorconfig
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/GreaterNumber/obj/Debug/net7.0/GreaterNumber.AssemblyInfoInputs.cache
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/GreaterNumber/obj/Debug/net7.0/GreaterNumber.AssemblyInfo.cs
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/GreaterNumber/obj/Debug/net7.0/GreaterNumber.csproj.CoreCompileInputs.cache
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/GreaterNumber/obj/Debug/net7.0/GreaterNumber.dll
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/GreaterNumber/obj/Debug/net7.0/refint/GreaterNumber.dll
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/GreaterNumber/obj/Debug/net7.0/GreaterNumber.pdb
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/GreaterNumber/obj/Debug/net7.0/GreaterNumber.genruntimeconfig.cache
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/GreaterNumber/obj/Debug/net7.0/ref/GreaterNumber.dll

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YndwY3aIgr0jdtqRDT14wApkA2ZTaNLbKqfyOnsQoFq86Ag7hixpgCyTqam8ik/GFW60HHsm3DxmNdopGfBJPg==",
+  "dgSpecHash": "lM4RnMgrr0pIkTA9b0qY7cdDOCS5xOcKvQ4gqtOKyby2Qb7xLjOf7NLb8iubg2XyqRJyzHnlCpMYkq/EZNoLUA==",
   "success": true,
-  "projectFilePath": "/Users/itprofil/Desktop/ITMO/C#/MyGit/MyCSharpLabs/MyCSharpLabs/Lab03/FeetAndInches/FeetAndInches.csproj",
+  "projectFilePath": "/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/FeetAndInches/FeetAndInches.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

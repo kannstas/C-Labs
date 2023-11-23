@@ -1,0 +1,15 @@
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/TheRootOfTheQuadraticEquation/bin/Debug/net7.0/TheRootOfTheQuadraticEquation
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/TheRootOfTheQuadraticEquation/bin/Debug/net7.0/TheRootOfTheQuadraticEquation.deps.json
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/TheRootOfTheQuadraticEquation/bin/Debug/net7.0/TheRootOfTheQuadraticEquation.runtimeconfig.json
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/TheRootOfTheQuadraticEquation/bin/Debug/net7.0/TheRootOfTheQuadraticEquation.dll
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/TheRootOfTheQuadraticEquation/bin/Debug/net7.0/TheRootOfTheQuadraticEquation.pdb
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/TheRootOfTheQuadraticEquation/obj/Debug/net7.0/TheRootOfTheQuadraticEquation.csproj.AssemblyReference.cache
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/TheRootOfTheQuadraticEquation/obj/Debug/net7.0/TheRootOfTheQuadraticEquation.GeneratedMSBuildEditorConfig.editorconfig
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/TheRootOfTheQuadraticEquation/obj/Debug/net7.0/TheRootOfTheQuadraticEquation.AssemblyInfoInputs.cache
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/TheRootOfTheQuadraticEquation/obj/Debug/net7.0/TheRootOfTheQuadraticEquation.AssemblyInfo.cs
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/TheRootOfTheQuadraticEquation/obj/Debug/net7.0/TheRootOfTheQuadraticEquation.csproj.CoreCompileInputs.cache
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/TheRootOfTheQuadraticEquation/obj/Debug/net7.0/TheRootOfTheQuadraticEquation.dll
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/TheRootOfTheQuadraticEquation/obj/Debug/net7.0/refint/TheRootOfTheQuadraticEquation.dll
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/TheRootOfTheQuadraticEquation/obj/Debug/net7.0/TheRootOfTheQuadraticEquation.pdb
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/TheRootOfTheQuadraticEquation/obj/Debug/net7.0/TheRootOfTheQuadraticEquation.genruntimeconfig.cache
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/TheRootOfTheQuadraticEquation/obj/Debug/net7.0/ref/TheRootOfTheQuadraticEquation.dll

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/itprofil/Desktop/ITMO/C#/MyGit/MyCSharpLabs/MyCSharpLabs/Lab03/BankAccount/BankAccount/BankAccount.csproj",
+      "projectUniqueName": "/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/BankAccount/BankAccount/BankAccount.csproj",
       "projectName": "BankAccount",
-      "projectPath": "/Users/itprofil/Desktop/ITMO/C#/MyGit/MyCSharpLabs/MyCSharpLabs/Lab03/BankAccount/BankAccount/BankAccount.csproj",
+      "projectPath": "/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/BankAccount/BankAccount/BankAccount.csproj",
       "packagesPath": "/Users/itprofil/.nuget/packages/",
-      "outputPath": "/Users/itprofil/Desktop/ITMO/C#/MyGit/MyCSharpLabs/MyCSharpLabs/Lab03/BankAccount/BankAccount/obj/",
+      "outputPath": "/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/BankAccount/BankAccount/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/itprofil/.nuget/NuGet/NuGet.Config"

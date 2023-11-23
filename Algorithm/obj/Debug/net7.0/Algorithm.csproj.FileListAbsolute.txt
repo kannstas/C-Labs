@@ -1,0 +1,15 @@
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/Algorithm/bin/Debug/net7.0/Algorithm
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/Algorithm/bin/Debug/net7.0/Algorithm.deps.json
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/Algorithm/bin/Debug/net7.0/Algorithm.runtimeconfig.json
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/Algorithm/bin/Debug/net7.0/Algorithm.dll
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/Algorithm/bin/Debug/net7.0/Algorithm.pdb
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/Algorithm/obj/Debug/net7.0/Algorithm.csproj.AssemblyReference.cache
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/Algorithm/obj/Debug/net7.0/Algorithm.GeneratedMSBuildEditorConfig.editorconfig
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/Algorithm/obj/Debug/net7.0/Algorithm.AssemblyInfoInputs.cache
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/Algorithm/obj/Debug/net7.0/Algorithm.AssemblyInfo.cs
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/Algorithm/obj/Debug/net7.0/Algorithm.csproj.CoreCompileInputs.cache
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/Algorithm/obj/Debug/net7.0/Algorithm.dll
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/Algorithm/obj/Debug/net7.0/refint/Algorithm.dll
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/Algorithm/obj/Debug/net7.0/Algorithm.pdb
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/Algorithm/obj/Debug/net7.0/Algorithm.genruntimeconfig.cache
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/Algorithm/obj/Debug/net7.0/ref/Algorithm.dll

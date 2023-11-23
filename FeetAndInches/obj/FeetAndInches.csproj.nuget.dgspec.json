@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/itprofil/Desktop/ITMO/C#/MyGit/MyCSharpLabs/MyCSharpLabs/Lab03/FeetAndInches/FeetAndInches.csproj": {}
+    "/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/FeetAndInches/FeetAndInches.csproj": {}
   },
   "projects": {
-    "/Users/itprofil/Desktop/ITMO/C#/MyGit/MyCSharpLabs/MyCSharpLabs/Lab03/FeetAndInches/FeetAndInches.csproj": {
+    "/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/FeetAndInches/FeetAndInches.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/itprofil/Desktop/ITMO/C#/MyGit/MyCSharpLabs/MyCSharpLabs/Lab03/FeetAndInches/FeetAndInches.csproj",
+        "projectUniqueName": "/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/FeetAndInches/FeetAndInches.csproj",
         "projectName": "FeetAndInches",
-        "projectPath": "/Users/itprofil/Desktop/ITMO/C#/MyGit/MyCSharpLabs/MyCSharpLabs/Lab03/FeetAndInches/FeetAndInches.csproj",
+        "projectPath": "/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/FeetAndInches/FeetAndInches.csproj",
         "packagesPath": "/Users/itprofil/.nuget/packages/",
-        "outputPath": "/Users/itprofil/Desktop/ITMO/C#/MyGit/MyCSharpLabs/MyCSharpLabs/Lab03/FeetAndInches/obj/",
+        "outputPath": "/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/FeetAndInches/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/itprofil/.nuget/NuGet/NuGet.Config"

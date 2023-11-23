@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/itprofil/Desktop/ITMO/C#/MyGit/MyCSharpLabs/MyCSharpLabs/Lab03/StructType/StructType.csproj",
+      "projectUniqueName": "/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/StructType/StructType.csproj",
       "projectName": "StructType",
-      "projectPath": "/Users/itprofil/Desktop/ITMO/C#/MyGit/MyCSharpLabs/MyCSharpLabs/Lab03/StructType/StructType.csproj",
+      "projectPath": "/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/StructType/StructType.csproj",
       "packagesPath": "/Users/itprofil/.nuget/packages/",
-      "outputPath": "/Users/itprofil/Desktop/ITMO/C#/MyGit/MyCSharpLabs/MyCSharpLabs/Lab03/StructType/obj/",
+      "outputPath": "/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/StructType/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/itprofil/.nuget/NuGet/NuGet.Config"

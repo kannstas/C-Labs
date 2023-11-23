@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9WmGLDC++0F/AWBS2r9Kol8tSFOBmPJt7HaDvrp1osDosedhRDA/PLduXUojntUiKVVuueFcArD4IkfA5S+3xA==",
+  "dgSpecHash": "VbrUzlG64/QhHGOXBER6Dy70mlGfnD9bnsTzs4KR6EiSCRg066pd8aBx9+QTDJTpSEz7PaSiyV+dx6SkISw67g==",
   "success": true,
-  "projectFilePath": "/Users/itprofil/Desktop/ITMO/C#/MyGit/MyCSharpLabs/MyCSharpLabs/Lab03/StructType/StructType.csproj",
+  "projectFilePath": "/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/StructType/StructType.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
