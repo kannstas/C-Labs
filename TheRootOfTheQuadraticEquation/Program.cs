@@ -12,35 +12,51 @@ int coefficientB = int.Parse(Console.ReadLine());
 Console.WriteLine("Введите коэффициент c");
 int coefficientC = int.Parse(Console.ReadLine());
 
-CalculateRootsOfTheQuadraticEquation(ref coefficientA, ref coefficientB, ref coefficientC);
+
+int firstRoot = 0;
+int secondRoot = 0;
+
+
+int result = CalculateRootsOfTheQuadraticEquation(coefficientA, coefficientB, coefficientC, ref firstRoot, ref secondRoot);
+
+if (result == -1)
+{
+    Console.WriteLine($"Корней уравнения с коэффициентами a = {coefficientA}, b = {coefficientB}, c = {coefficientC} нет ");
+} else if (result == 0)
+{
+    Console.WriteLine($"Корней уравнения с коэффициентами a = {coefficientA}, b = {coefficientB}, c = {coefficientC} " +
+          $"один : x1 = x2 = {firstRoot}");
+
+}else if (result==1)
+{
+    Console.WriteLine($"Корней уравнения с коэффициентами a = {coefficientA}, b = {coefficientB}, c = {coefficientC} " +
+           $"равны : x1 = {firstRoot} x2 = {secondRoot}");
+}
 
 
 
-static int  CalculateRootsOfTheQuadraticEquation (ref int coefficientA, ref int coefficientB, ref int coefficientC) { 
+
+static int  CalculateRootsOfTheQuadraticEquation ( int coefficientA, int coefficientB, int coefficientC,
+    ref int firstRoot, ref int secondRoot) { 
 
 int discriminant = (coefficientB * coefficientB) - 4 * coefficientA * coefficientC;
 
 if (discriminant<0 || coefficientA<0)
     {
-        Console.WriteLine($"Корней уравнения с коэффициентами a = {coefficientA}, b = {coefficientB}, c = {coefficientC} нет ");
+     
         return -1;
     }
 else if (discriminant == 0)
     {
-        int firstRoot = (int)(((-1) * coefficientB) + Math.Sqrt(discriminant)) / 2 * coefficientA;
-        Console.WriteLine($"Корней уравнения с коэффициентами a = {coefficientA}, b = {coefficientB}, c = {coefficientC} " +
-          $"один : x1 = x2 = {firstRoot}");
+        firstRoot = (int)(((-1) * coefficientB) + Math.Sqrt(discriminant)) / 2 * coefficientA;
         return 0;
     }
 
     else
 
     {
-        int firstRoot = (int)(((-1) * coefficientB) + Math.Sqrt(discriminant)) / 2 * coefficientA;
-        int secondRoot = (int)(((-1) * coefficientB) - Math.Sqrt(discriminant)) / 2 * coefficientA;
-
-        Console.WriteLine($"Корней уравнения с коэффициентами a = {coefficientA}, b = {coefficientB}, c = {coefficientC} " +
-            $"равны : x1 = {firstRoot} x2 = {secondRoot}");
+        firstRoot = (int)(((-1) * coefficientB) + Math.Sqrt(discriminant)) / 2 * coefficientA;
+        secondRoot = (int)(((-1) * coefficientB) - Math.Sqrt(discriminant)) / 2 * coefficientA;
         return 1;
     }
 
