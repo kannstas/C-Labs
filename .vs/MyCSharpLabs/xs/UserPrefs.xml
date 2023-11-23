@@ -1,4 +1,4 @@
-﻿<Properties StartupConfiguration="{B000DA3E-7D28-4BCF-B362-3DDFCBE5B1CE}|Default">
+﻿<Properties StartupConfiguration="{F26BAE2A-E3A2-4C2E-B4B8-F51B402A63CC}|Default">
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.WhatDay2__3 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
@@ -27,7 +27,7 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Algorithm FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Algorithm PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.RootsOfAQuadraticEquation PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Divider PreferredExecutionTarget="MonoDevelop.Default" />
   <DisabledProjects>

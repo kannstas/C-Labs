@@ -1,21 +1,26 @@
 ﻿
 
 double target = 2023;
-double x = 1;
-double oldx;
 
 
-RootSearch();
+Exit(RootSearch(target));
 
-Console.WriteLine(x);
-Console.WriteLine(x * x);
 
-void RootSearch () { 
-do
+static double RootSearch (double target) {
+    double x = 1;
+    double oldx;
+    do
 {
     oldx = x;
     x = (x + target / x) / 2;
 }
 while (oldx != x);
 
+    return x;
+}
+
+static void Exit(double x)
+{
+    Console.WriteLine(x);
+    Console.WriteLine(x * x);
 }
