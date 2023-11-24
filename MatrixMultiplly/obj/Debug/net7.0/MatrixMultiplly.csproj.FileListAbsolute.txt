@@ -1,0 +1,15 @@
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/MatrixMultiplly/bin/Debug/net7.0/MatrixMultiplly
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/MatrixMultiplly/bin/Debug/net7.0/MatrixMultiplly.deps.json
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/MatrixMultiplly/bin/Debug/net7.0/MatrixMultiplly.runtimeconfig.json
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/MatrixMultiplly/bin/Debug/net7.0/MatrixMultiplly.dll
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/MatrixMultiplly/bin/Debug/net7.0/MatrixMultiplly.pdb
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/MatrixMultiplly/obj/Debug/net7.0/MatrixMultiplly.csproj.AssemblyReference.cache
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/MatrixMultiplly/obj/Debug/net7.0/MatrixMultiplly.GeneratedMSBuildEditorConfig.editorconfig
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/MatrixMultiplly/obj/Debug/net7.0/MatrixMultiplly.AssemblyInfoInputs.cache
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/MatrixMultiplly/obj/Debug/net7.0/MatrixMultiplly.AssemblyInfo.cs
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/MatrixMultiplly/obj/Debug/net7.0/MatrixMultiplly.csproj.CoreCompileInputs.cache
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/MatrixMultiplly/obj/Debug/net7.0/MatrixMultiplly.dll
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/MatrixMultiplly/obj/Debug/net7.0/refint/MatrixMultiplly.dll
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/MatrixMultiplly/obj/Debug/net7.0/MatrixMultiplly.pdb
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/MatrixMultiplly/obj/Debug/net7.0/MatrixMultiplly.genruntimeconfig.cache
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/MatrixMultiplly/obj/Debug/net7.0/ref/MatrixMultiplly.dll

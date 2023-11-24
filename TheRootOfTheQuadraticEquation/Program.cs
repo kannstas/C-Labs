@@ -16,7 +16,6 @@ int secondRoot = 0;
 int flag = 0;
 
 
-
 var result = (Flag: flag, FirstRoot: firstRoot, SecondRoot: secondRoot);
 
 result = CalculateRootsOfTheQuadraticEquation(coefficientA, coefficientB, coefficientC);

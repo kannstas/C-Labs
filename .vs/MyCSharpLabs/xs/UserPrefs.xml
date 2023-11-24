@@ -1,46 +1,52 @@
-﻿<Properties StartupConfiguration="{F26BAE2A-E3A2-4C2E-B4B8-F51B402A63CC}|Default">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.WhatDay2__3 PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.ComparingNumbers PreferredExecutionTarget="MonoDevelop.Default" />
+﻿<Properties StartupConfiguration="{1C10C848-8B7D-4894-A796-E025211C5F76}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.RootsOfAQuadraticEquation PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.GreaterNumber PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.FeetAndInches PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="RootsOfAQuadraticEquation/Program.cs">
+  <MonoDevelop.Ide.ItemProperties.MatrixMultiplly PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MatrixMultiplly/Program.cs">
     <Files>
       <File FileName="TargetShooting/Target.cs" />
       <File FileName="BankAccount/BankAccount/Enum.cs" />
       <File FileName="FeetAndInches/Program.cs" />
       <File FileName="Greeting/Greeter.cs" />
-      <File FileName="StructType/Struct.cs" Line="1" Column="1" />
-      <File FileName="Area/TriangleArea.cs" Line="19" Column="1" />
+      <File FileName="StructType/Struct.cs" />
+      <File FileName="Area/TriangleArea.cs" />
       <File FileName="Divider/DividerIt.cs" />
-      <File FileName="ComparingNumbers/Program.cs" Line="47" Column="1" />
-      <File FileName="RootsOfAQuadraticEquation/Program.cs" Line="7" Column="1" />
+      <File FileName="StructType/obj/StructType.csproj.nuget.dgspec.json" />
+      <File FileName=".vs/MyCSharpLabs/xs/project-cache/Area-Debug.json" />
+      <File FileName="WhatDay1/WhatDay1/WhatDay.cs" />
+      <File FileName="GreaterNumber/Program.cs" />
+      <File FileName="TheRootOfTheQuadraticEquation/Program.cs" />
+      <File FileName="NumberToDigits/Program.cs" />
+      <File FileName="Algorithm/Program.cs" />
+      <File FileName="FileDetails/Program.cs" Line="58" Column="39" />
+      <File FileName="MatrixMultiplly/Program.cs" Line="23" Column="7" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="MyCSharpLabs">
-            <Node name="Area" expanded="True" />
-            <Node name="RootsOfAQuadraticEquation" expanded="True" />
+          <Node name="MyCSharpLabs" expanded="True">
+            <Node name="MatrixMultiplly" selected="True" />
           </Node>
         </State>
       </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Algorithm PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.RootsOfAQuadraticEquation PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.Divider PreferredExecutionTarget="MonoDevelop.Default" />
-  <DisabledProjects>
-    <String>Algorithm/Algorithm.csproj</String>
-  </DisabledProjects>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.WhatDay2__3 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.FileDetails PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.TargetShooting PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.ComparingNumbers PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.TheRootOfTheQuadraticEquation PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.GreaterNumber PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <Breakpoint file="/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/ComparingNumbers/Program.cs" relfile="ComparingNumbers/Program.cs" line="48" column="1" />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.ItemProperties.Divider PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Greeting PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.SumOfTheDigitsOfTheNumber PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.TargetShooting PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.MyArray FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Area PreferredExecutionTarget="MonoDevelop.Default" />
-  <MultiItemStartupConfigurations />
 </Properties>

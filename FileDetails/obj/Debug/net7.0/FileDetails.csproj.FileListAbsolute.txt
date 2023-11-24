@@ -1,0 +1,15 @@
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/FileDetails/bin/Debug/net7.0/FileDetails
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/FileDetails/bin/Debug/net7.0/FileDetails.deps.json
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/FileDetails/bin/Debug/net7.0/FileDetails.runtimeconfig.json
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/FileDetails/bin/Debug/net7.0/FileDetails.dll
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/FileDetails/bin/Debug/net7.0/FileDetails.pdb
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/FileDetails/obj/Debug/net7.0/FileDetails.csproj.AssemblyReference.cache
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/FileDetails/obj/Debug/net7.0/FileDetails.GeneratedMSBuildEditorConfig.editorconfig
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/FileDetails/obj/Debug/net7.0/FileDetails.AssemblyInfoInputs.cache
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/FileDetails/obj/Debug/net7.0/FileDetails.AssemblyInfo.cs
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/FileDetails/obj/Debug/net7.0/FileDetails.csproj.CoreCompileInputs.cache
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/FileDetails/obj/Debug/net7.0/FileDetails.dll
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/FileDetails/obj/Debug/net7.0/refint/FileDetails.dll
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/FileDetails/obj/Debug/net7.0/FileDetails.pdb
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/FileDetails/obj/Debug/net7.0/FileDetails.genruntimeconfig.cache
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/FileDetails/obj/Debug/net7.0/ref/FileDetails.dll
