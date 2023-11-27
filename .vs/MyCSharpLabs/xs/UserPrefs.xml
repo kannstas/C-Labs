@@ -1,10 +1,10 @@
-﻿<Properties StartupConfiguration="{1C10C848-8B7D-4894-A796-E025211C5F76}|Default">
+﻿<Properties StartupConfiguration="{428A843A-EA0F-4E64-94AA-377EB10DD8B6}|Default">
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.RootsOfAQuadraticEquation PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.GreaterNumber PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.FeetAndInches PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.MatrixMultiplly PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MatrixMultiplly/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TheRootOfTheQuadraticEquation/Program.cs">
     <Files>
       <File FileName="TargetShooting/Target.cs" />
       <File FileName="BankAccount/BankAccount/Enum.cs" />
@@ -17,17 +17,23 @@
       <File FileName=".vs/MyCSharpLabs/xs/project-cache/Area-Debug.json" />
       <File FileName="WhatDay1/WhatDay1/WhatDay.cs" />
       <File FileName="GreaterNumber/Program.cs" />
-      <File FileName="TheRootOfTheQuadraticEquation/Program.cs" />
+      <File FileName="TheRootOfTheQuadraticEquation/Program.cs" Line="19" Column="1" />
       <File FileName="NumberToDigits/Program.cs" />
       <File FileName="Algorithm/Program.cs" />
       <File FileName="FileDetails/Program.cs" Line="58" Column="39" />
-      <File FileName="MatrixMultiplly/Program.cs" Line="23" Column="7" />
+      <File FileName="MatrixMultiplly/Program.cs" Line="33" Column="1" />
+      <File FileName="MyArray/Program.cs" Line="82" Column="44" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="MyCSharpLabs" expanded="True">
-            <Node name="MatrixMultiplly" selected="True" />
+          <Node name="MyCSharpLabs">
+            <Node name="FileDetails" expanded="True" />
+            <Node name="MatrixMultiplly" expanded="True" />
+            <Node name="TargetShooting" expanded="True" />
+            <Node name="TheRootOfTheQuadraticEquation">
+              <Node name="Program.cs" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
@@ -47,6 +53,7 @@
   <MonoDevelop.Ide.ItemProperties.Divider PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Greeting PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.SumOfTheDigitsOfTheNumber PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.MyArray FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.MyArray PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Area PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.BankAccount PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>

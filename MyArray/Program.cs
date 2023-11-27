@@ -6,12 +6,17 @@ int size = int.Parse(Console.ReadLine());
 
 int[] array = new int[size];
 
+ArrayAverageValue(InputInArray(array)); // поиск среднего арифметического
+
+
 int sumPositive = 0;
 int sumNegative = 0;
 
 var tupleSumPositiveAndNegativeElements = (SumPositive: sumPositive, SumNegative: sumNegative);
 
-//tupleSumPositiveAndNegativeElements = SumPositiveAndNegativeElementInArray(InputInArray(array)); 
+tupleSumPositiveAndNegativeElements = SumPositiveAndNegativeElementInArray(InputInArray(array));  //расчет суммы отрицательных и положительных элементов.
+
+
 
 
 int sumEvenNumbers = 0;
@@ -19,9 +24,9 @@ int sumOddNumbers = 0;
 
 var tupleSumEvenAndOddElementInArray = (SumEvenNumbers: sumEvenNumbers, SumOddNumbers: sumOddNumbers);
 
-//tupleSumEvenAndOddElementInArray = SumEvenAndOddElementInArray(InputInArray(array));
+tupleSumEvenAndOddElementInArray = SumEvenAndOddElementInArray(InputInArray(array)); //расчет суммы элементов с нечетными и четными номерами
 
-//ArrayAverageValue(InputInArray(array));
+
 
 
 int maxElementInArray = 0;
@@ -30,7 +35,8 @@ int minElementInArray = 0;
 
 var tupleMaxandMinElementInArray = (MaxElementInArray: maxElementInArray, MinElementInArray: minElementInArray);
 
-tupleMaxandMinElementInArray = SearchMinAndMaxElementInArray(InputInArray(array));
+tupleMaxandMinElementInArray = SearchMinAndMaxElementInArray(InputInArray(array)); //найти максимальный или минимальный элементы массива и
+//вывести их индексы,
 
 
 
@@ -73,7 +79,7 @@ static int CountAllElementInArray (int[] array) // определение сум
 }
 
 
-static int ArrayAverageValue (int[] array) // среднего значения массива
+static int ArrayAverageValue (int[] array) 
 {
     int result = CountAllElementInArray(array) / 2;
     Console.WriteLine($"Среднее арифметическое от {CountAllElementInArray(array)} = {result}");
@@ -83,9 +89,7 @@ static int ArrayAverageValue (int[] array) // среднего значения 
 
 
 
-(int sumPositive, int sumNegative) SumPositiveAndNegativeElementInArray (int[] array) //расчет суммы отрицательных и положительных элементов.
-{
-    
+(int sumPositive, int sumNegative) SumPositiveAndNegativeElementInArray (int[] array) { 
    for (int i = 0; i< array.Length; i++)
     {
         if (array[i]>=0)
@@ -106,7 +110,7 @@ static int ArrayAverageValue (int[] array) // среднего значения 
 }
 
 
-(int sumEvenNumbers, int sumOddNumbers) SumEvenAndOddElementInArray(int[] array) //расчет суммы элементов с нечетными и четными номерами
+(int sumEvenNumbers, int sumOddNumbers) SumEvenAndOddElementInArray(int[] array) 
 {
 
     for (int i = 0; i < array.Length; i++)
@@ -130,8 +134,7 @@ static int ArrayAverageValue (int[] array) // среднего значения 
 }
 
 
-(int maxElementInArray, int minElementInArray) SearchMinAndMaxElementInArray (int[] array) //найти максимальный или минимальный элементы массива и
-//вывести их индексы,
+(int maxElementInArray, int minElementInArray) SearchMinAndMaxElementInArray (int[] array) 
 {
 
     maxElementInArray = array.Max();

@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/StructType/StructType.csproj",
-      "projectName": "StructType",
-      "projectPath": "/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/StructType/StructType.csproj",
+      "projectUniqueName": "/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/StructType/BankAccountClass.csproj",
+      "projectName": "BankAccountClass",
+      "projectPath": "/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/StructType/BankAccountClass.csproj",
       "packagesPath": "/Users/itprofil/.nuget/packages/",
       "outputPath": "/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/StructType/obj/",
       "projectStyle": "PackageReference",

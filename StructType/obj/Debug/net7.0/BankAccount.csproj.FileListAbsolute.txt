@@ -1,0 +1,15 @@
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/StructType/bin/Debug/net7.0/BankAccount
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/StructType/bin/Debug/net7.0/BankAccount.deps.json
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/StructType/bin/Debug/net7.0/BankAccount.runtimeconfig.json
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/StructType/bin/Debug/net7.0/BankAccount.dll
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/StructType/bin/Debug/net7.0/BankAccount.pdb
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/StructType/obj/Debug/net7.0/BankAccount.csproj.AssemblyReference.cache
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/StructType/obj/Debug/net7.0/BankAccount.GeneratedMSBuildEditorConfig.editorconfig
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/StructType/obj/Debug/net7.0/BankAccount.AssemblyInfoInputs.cache
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/StructType/obj/Debug/net7.0/BankAccount.AssemblyInfo.cs
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/StructType/obj/Debug/net7.0/BankAccount.csproj.CoreCompileInputs.cache
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/StructType/obj/Debug/net7.0/BankAccount.dll
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/StructType/obj/Debug/net7.0/refint/BankAccount.dll
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/StructType/obj/Debug/net7.0/BankAccount.pdb
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/StructType/obj/Debug/net7.0/BankAccount.genruntimeconfig.cache
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/StructType/obj/Debug/net7.0/ref/BankAccount.dll

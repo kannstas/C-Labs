@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jddJEXtthuRB0eBjWbfJu9T15qQPHer59A+c5u2Zaj0yu8oG47HPJdh3C3wzvwZeoactjDfoEKQSo/pUl4wKTw==",
+  "dgSpecHash": "8QTyj+oAhxL+Takj5L5Qoz+1Js5ktgEKjhiHk6suaVUMC6cv+CPrR1w1QWq+V8H39zMKSQ38ln4QDrSgYtHBuw==",
   "success": true,
-  "projectFilePath": "/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/BankAccount/BankAccount/BankAccount.csproj",
+  "projectFilePath": "/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/BankAccount/BankAccount/BankAccountEnum.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

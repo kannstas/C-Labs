@@ -15,11 +15,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TargetShooting", "TargetSho
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatDay1", "WhatDay1\WhatDay1\WhatDay1.csproj", "{D6599CC9-C6A6-4564-A387-216EB426DA69}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructType", "StructType\StructType.csproj", "{CC0E5CE0-DD3E-4AD5-9A7E-33F6336C15C5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankAccount", "StructType\BankAccount.csproj", "{CC0E5CE0-DD3E-4AD5-9A7E-33F6336C15C5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FeetAndInches", "FeetAndInches\FeetAndInches.csproj", "{3933B175-1B06-4CE9-97ED-4EA93226B80F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankAccount", "BankAccount\BankAccount\BankAccount.csproj", "{9AC6985D-9DEE-4026-AA15-D49D04AA86ED}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankAccountEnum", "BankAccount\BankAccount\BankAccountEnum.csproj", "{9AC6985D-9DEE-4026-AA15-D49D04AA86ED}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreaterNumber", "GreaterNumber\GreaterNumber.csproj", "{FB58AF31-E319-40B9-9678-DE582688EFC5}"
 EndProject

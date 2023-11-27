@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/BankAccount/BankAccount/BankAccount.csproj",
-      "projectName": "BankAccount",
-      "projectPath": "/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/BankAccount/BankAccount/BankAccount.csproj",
+      "projectUniqueName": "/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/BankAccount/BankAccount/BankAccountEnum.csproj",
+      "projectName": "BankAccountEnum",
+      "projectPath": "/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/BankAccount/BankAccount/BankAccountEnum.csproj",
       "packagesPath": "/Users/itprofil/.nuget/packages/",
       "outputPath": "/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/BankAccount/BankAccount/obj/",
       "projectStyle": "PackageReference",

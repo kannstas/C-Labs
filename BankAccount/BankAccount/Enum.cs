@@ -1,6 +1,5 @@
 ﻿
 
-
 AccountType goldAccount = AccountType.Cheking;
 AccountType platinumAccount = AccountType.Deposit;
 
