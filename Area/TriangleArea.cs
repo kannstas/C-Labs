@@ -1,53 +1,122 @@
 ﻿
 
+using System;
 
-Console.WriteLine("Это равностороний треугольник или нет?");
-String answer = Console.ReadLine();
+Triangle triangle = new Triangle();
 
- if (answer.Equals("да"))
+
+Input();
+
+   static void Input()
 {
-    Console.WriteLine("Введите сторону");
-    double sideOfEquilateralTriangle = double.Parse(Console.ReadLine());
-
-    Operation.Calculate(sideOfEquilateralTriangle);
-
-} else if (answer.Equals("нет"))
-
-{
-    Console.WriteLine("Введите сторону A");
-    double sideA= double.Parse(Console.ReadLine());
-
-    Console.WriteLine("Введите сторону B");
-    double sideB = double.Parse(Console.ReadLine());
-
-    Console.WriteLine("Введите сторону C");
-    double sideC = double.Parse(Console.ReadLine());
-
-    Operation.Calculate(sideA, sideB, sideC);
-
-}
+    Triangle triangle = new Triangle();
 
 
+    Console.WriteLine("Это равностороний треугольник или нет?");
+    String answer = Console.ReadLine();
 
-
- class Operation
-{
-
-
-    public static void Calculate(double side)
+    if (answer.Equals("да"))
 
     {
+        Console.WriteLine("Введите сторону");
+        double oneSide = double.Parse(Console.ReadLine());
 
-        if (side == 0 || side < 0)
+        OutputEquilateralTriangle(triangle, oneSide);
+
+    }
+    else if (answer.Equals("нет"))
+
+    {
+        Console.WriteLine("Введите сторону A");
+        double sideA = double.Parse(Console.ReadLine());
+
+        Console.WriteLine("Введите сторону B");
+        double sideB = double.Parse(Console.ReadLine());
+
+        Console.WriteLine("Введите сторону C");
+        double sideC = double.Parse(Console.ReadLine());
+
+
+        var tuple = (SideA: sideA, SideB: sideB, SideC: sideC);
+        tuple = triangle.InitializationSides(sideA, sideB, sideC);
+        Output(triangle, tuple);
+
+    }
+
+    static void Output(Triangle triangle, (double SideA, double SideB, double SideC) tuple)
+    {
+        Console.WriteLine($"периметр {triangle.CalculateTrianglePerimeter(tuple)}");
+        triangle.CalculateArea(tuple);
+        triangle.PrintSides(tuple);
+    }
+
+    static void OutputEquilateralTriangle(Triangle triangle, double oneSide)
+    {
+        Console.WriteLine($"периметр {triangle.CalculateTrianglePerimeter(triangle.InitializationSides(oneSide))}");
+     
+        triangle.CalculateArea(triangle.InitializationSides(oneSide));
+
+        triangle.PrintSides(oneSide);
+    }
+}
+  
+
+
+
+
+
+class Triangle
+{
+    private double sideA;
+
+    private double sideB;
+
+    private double sideC;
+
+
+
+    public (double sideA, double sideB, double sideC) InitializationSides(double sideA, double sideB, double sideC)
+    {
+        sideA = sideA;
+        sideB = sideB;
+        sideC = sideC;
+
+        return (sideA, sideB, sideC);
+    }
+
+    public double InitializationSides(double oneSide)
+    {
+        return sideA = oneSide;
+    }
+
+    public double CalculateTrianglePerimeter(double oneSide)
+    {
+        if (ItIsTriangle(oneSide).Equals(true))
         {
-            ItIsTriangle(false);
-            Console.WriteLine("Это не треугольник");
+            double perimeter = oneSide * 3;
+            return perimeter;
         }
-        else
-        {
-            double trianglePerimeter = side * 3;
+        return 0;
+    }
 
-            double areaOfTriangle = Math.Sqrt((trianglePerimeter / 2) * Math.Pow((trianglePerimeter / 2) - side, 3));
+    public double CalculateTrianglePerimeter((double sideA, double sideB, double sideC) tuple)
+    {
+        if (ItIsTriangle(tuple).Equals(true))
+        {
+            double perimeter = tuple.sideA + tuple.sideB + tuple.sideC;
+    
+            return perimeter;
+        }
+        return 0; 
+    }
+
+
+    public void CalculateArea(double oneSide)
+
+    {
+        if (ItIsTriangle(oneSide).Equals(true))
+        {
+            double areaOfTriangle = Math.Sqrt(CalculateTrianglePerimeter(oneSide) / 2 * Math.Pow(CalculateTrianglePerimeter(oneSide) / 2 - sideA, 3));
 
             Console.WriteLine($"площадь: {Math.Round(areaOfTriangle, 2)}");
 
@@ -55,35 +124,69 @@ String answer = Console.ReadLine();
     }
 
 
-
-
-    public static void Calculate(double sideA, double sideB, double sideC)
+    public void CalculateArea((double sideA, double sideB, double sideC) tuple)
     {
-
-        if ((sideA == 0) || (sideA < 0)
-                || (sideB == 0) || (sideB < 0)
-                || (sideC == 0) || (sideC < 0))
+        if (ItIsTriangle(tuple).Equals(true))
         {
-            ItIsTriangle(false);
-            Console.WriteLine("Это не треугольник");
-        }
-        else
-        {
-            double halfTrianglePerimeter = (sideA + sideB + sideC) / 2;
+            double halfPerimeter = CalculateTrianglePerimeter(tuple) / 2;
 
-            double areaOfTriangle = Math.Sqrt(halfTrianglePerimeter * (halfTrianglePerimeter - sideA) * (halfTrianglePerimeter - sideB)
-                * (halfTrianglePerimeter - sideC));
+            double areaOfTriangle = Math.Sqrt(halfPerimeter * (halfPerimeter - tuple.sideA) * (halfPerimeter - tuple.sideB)
+                  * (halfPerimeter - tuple.sideC));
 
             Console.WriteLine($"площадь: {Math.Round(areaOfTriangle, 2)}");
 
         }
     }
 
-
-    private static void ItIsTriangle(bool ok)
+    public void PrintSides((double sideA, double sideB, double sideC) tuple)
     {
-
+        if (ItIsTriangle(tuple).Equals(true))
+        {
+            Console.WriteLine($"Cтороны треугольника {tuple.sideA}, {tuple.sideB}, {tuple.sideC}");
+        }
     }
 
 
+    public void PrintSides(double oneSide)
+    {
+        if (ItIsTriangle(oneSide).Equals(true))
+        {
+            Console.WriteLine($"Cтороны треугольника равны {oneSide}");
+        }
+    }
+
+
+
+    private bool ItIsTriangle((double sideA, double sideB, double sideC) tuple)
+    {
+
+
+        if ((tuple.sideA == 0) || (tuple.sideA < 0)
+               || (tuple.sideB == 0) || (tuple.sideB < 0)
+               || (tuple.sideC == 0) || (tuple.sideC < 0))
+        {
+
+            Console.WriteLine("Это не треугольник");
+            return false;
+        }
+        else
+        {
+            return true;
+        }
+    }
+
+
+    private bool ItIsTriangle(double oneSide)
+    {
+        if ( oneSide <= 0)
+        {
+            Console.WriteLine("Это не треугольник");
+            return false;
+        }
+        else
+        {
+            return true;
+        }
+    }
 }
+
