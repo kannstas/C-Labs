@@ -1,0 +1,15 @@
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/Customer/bin/Debug/net7.0/Customer
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/Customer/bin/Debug/net7.0/Customer.deps.json
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/Customer/bin/Debug/net7.0/Customer.runtimeconfig.json
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/Customer/bin/Debug/net7.0/Customer.dll
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/Customer/bin/Debug/net7.0/Customer.pdb
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/Customer/obj/Debug/net7.0/Customer.csproj.AssemblyReference.cache
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/Customer/obj/Debug/net7.0/Customer.GeneratedMSBuildEditorConfig.editorconfig
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/Customer/obj/Debug/net7.0/Customer.AssemblyInfoInputs.cache
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/Customer/obj/Debug/net7.0/Customer.AssemblyInfo.cs
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/Customer/obj/Debug/net7.0/Customer.csproj.CoreCompileInputs.cache
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/Customer/obj/Debug/net7.0/Customer.dll
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/Customer/obj/Debug/net7.0/refint/Customer.dll
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/Customer/obj/Debug/net7.0/Customer.pdb
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/Customer/obj/Debug/net7.0/Customer.genruntimeconfig.cache
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/Customer/obj/Debug/net7.0/ref/Customer.dll
