@@ -4,37 +4,43 @@ public class Test
     public static void Main()
     {
 
-        Console.WriteLine("Введите первое число");
-        int firstNumber = int.Parse(Console.ReadLine());
+        //Console.WriteLine("Введите первое число");
+        //int firstNumber = int.Parse(Console.ReadLine());
 
-        Console.WriteLine("Введите второе число");
-        int secondNumber = int.Parse(Console.ReadLine());
+        //Console.WriteLine("Введите второе число");
+        //int secondNumber = int.Parse(Console.ReadLine());
 
-        int greater = Utils.Greater(firstNumber, secondNumber);
-        Console.WriteLine($"большее значение {greater}");
-
-
-        Console.WriteLine($"до преобразования {firstNumber}, {secondNumber}");
-        Utils.Swap(ref firstNumber, ref secondNumber);
-        Console.WriteLine($"после преобразования {firstNumber}, {secondNumber}");
+        //int greater = Utils.Greater(firstNumber, secondNumber);
+        //Console.WriteLine($"большее значение {greater}");
 
 
-        int factorialResult;
-        bool ok;
+        //Console.WriteLine($"до преобразования {firstNumber}, {secondNumber}");
+        //Utils.Swap(ref firstNumber, ref secondNumber);
+        //Console.WriteLine($"после преобразования {firstNumber}, {secondNumber}");
 
-        Console.WriteLine("Число для которого рассчитать факториал");
-        int numberForFactorial = int.Parse(Console.ReadLine());
 
-        ok = Utils.Factorial(numberForFactorial, out factorialResult);
+        //int factorialResult;
+        //bool ok;
 
-        if (ok)
+        //Console.WriteLine("Число для которого рассчитать факториал");
+        //int numberForFactorial = int.Parse(Console.ReadLine());
 
-            Console.WriteLine($"Factorial({numberForFactorial}) = {factorialResult}");
+        //ok = Utils.Factorial(numberForFactorial, out factorialResult);
 
-        else
+        //if (ok)
 
-            Console.WriteLine("Cannot compute this factorial");
+        //    Console.WriteLine($"Factorial({numberForFactorial}) = {factorialResult}");
 
+        //else
+
+        //    Console.WriteLine("Cannot compute this factorial");
+
+
+
+        string wordForReverse = Console.ReadLine();
+        Utils.Reserve(ref wordForReverse);
+
+        Console.WriteLine(wordForReverse);
 
     }
 }
@@ -90,6 +96,22 @@ class Utils {
         return ok;
 
     }
+
+
+    public static void Reserve(ref string s)
+    {
+
+        string reverseResult = "";
+
+        for (int i = s.Length-1; i>=0; i--)
+        {
+            reverseResult = reverseResult + s[i];
+        }
+
+        s=  reverseResult;
+
+    }
+
 }
 
 
