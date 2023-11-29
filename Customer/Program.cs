@@ -1,9 +1,7 @@
 ﻿
 Customer Elena = new Customer("Елена Иванова", 500);
 
-Rate rate = new Rate();
-
-rate.RecordCall(Elena, 30);
+Elena.Call(Elena);
 
 Console.WriteLine(Elena);
 
@@ -12,22 +10,28 @@ Console.WriteLine(Elena);
 
 class Customer
 {
-    public string Name;
-    public double Balance;
+    public string name;
+    public double balance;
 
-    public Customer(string name, double balance = 100)
+    private Rate rate = new Rate();
+
+    public Customer(string name, double balance)
     {
-        Name = name;
-        Balance = balance;
+        this.name = name;
+        this.balance = balance;
     }
 
     public override string ToString()
     {
-        return string.Format("Клиент: {0} имеет баланс: {1}", Name, Balance);
+        return string.Format("Клиент: {0} имеет баланс: {1}", name, balance);
     }
 
+    public void Call(Customer customer) => rate.RecordCall(customer, 20);
    
+
+
 }
+
 
 
 class Record
@@ -35,19 +39,30 @@ class Record
 {
     private Customer customer;
 
+   
+
     public void RecordPayment(double amountPaid)
     {
         if (amountPaid > 0)
-            customer.Balance += amountPaid;
+            customer.balance += amountPaid;
     }
+
+
 }
 
 class Rate // тариф
 {
 
+    TimeBasedRate timeBasedRate = new TimeBasedRate();
+    AfterTenMinutesCheaperRate afterTenMinutesCheaperRate = new AfterTenMinutesCheaperRate();
+    PayLessUpToFiveMinutesRate payLessUpToFiveMinutesRate = new PayLessUpToFiveMinutesRate();
+
+
 
     public void RecordCall(Customer customer, int minutes)
     {
+
+
         Console.WriteLine
             (
             "Выберете тариф \n" +
@@ -59,89 +74,158 @@ class Rate // тариф
 
         Console.WriteLine
             (
+            "\n" +
             "Выберете тип звонка: \n" +
-            "1. Городской \n" +
-            "2. Мобильный"
+            "городской \n" +
+            "мобильный \n"
              );
 
-        int userCallType = int.Parse(Console.ReadLine());
+        string userCallType = Console.ReadLine();
 
 
-        switch (userRate, userCallType)
+        if (userRate == 1)
+            timeBasedRate.CalculateTheCostOFTheCall(customer, userCallType, minutes);
+
+        if (userRate == 2)
+            afterTenMinutesCheaperRate.CalculateTheCostOFTheCall(customer, userCallType, minutes);
+
+        if (userRate == 3)
+            payLessUpToFiveMinutesRate.CalculateTheCostOFTheCall(customer, userCallType, minutes);
+
+
+
+    }
+}
+
+
+    class TimeBasedRate
+    {
+        string urbanCall;
+        string phoneCall;
+
+        public TimeBasedRate()
         {
-            case (1, 1): customer.Balance -= minutes * 5; break;
-            case (1, 2): customer.Balance -= minutes * 1; break;
-            case (2, 1):
+
+            urbanCall = "городской";
+            phoneCall = "мобильный";
+        }
+
+
+        public double CalculateTheCostOFTheCall(Customer customer, string callType, int minutes)
+        {
+            if (callType.Equals(urbanCall))
+            {
+                return customer.balance -= minutes * 5;
+
+
+            }
+            else if (callType.Equals(phoneCall))
+            {
+                return customer.balance -= minutes * 1;
+            }
+
+            return 0;
+        }
+
+
+    }
+
+    class AfterTenMinutesCheaperRate
+    {
+        string urbanCall;
+        string phoneCall;
+
+        public AfterTenMinutesCheaperRate()
+        {
+            urbanCall = "городской";
+            phoneCall = "мобильный";
+        }
+
+        public double CalculateTheCostOFTheCall(Customer customer, string callType, int minutes)
+        {
+            if (callType.Equals(urbanCall))
+            {
+                if (minutes > 10)
                 {
-                    if (minutes > 10)
-                    {
-                        customer.Balance -= 10 * 5;
+                    customer.balance -= 10 * 5;
 
+                    minutes = minutes - 10;
 
-                        minutes = minutes - 10;
-                        customer.Balance -= (minutes * 5) / 2;
-                    }
-
-                    if (minutes <= 10)
-                    {
-                        customer.Balance -= minutes * 5;
-                    }
-
-                    break;
+                    return customer.balance -= (minutes * 5) / 2;
                 }
-            case (2, 2): customer.Balance -= minutes * 1; break;
 
-            case (3, 1):
+                if (minutes <= 10)
                 {
-
-                    if (minutes > 5)
-                    {
-                        customer.Balance -= 5 * 2.5;
-
-                        minutes = minutes - 5;
-                        customer.Balance -= minutes * 10;
-                    }
-
-                    if (minutes <= 5)
-                    {
-                        customer.Balance -= minutes * 2.5;
-                    }
-
-                    break;
+                    return customer.balance -= minutes * 5;
                 }
+            }
 
-            case (3, 2):
-                {
+            else if (callType.Equals(phoneCall))
+            {
+                return customer.balance -= minutes * 1;
+            }
 
-
-                    if (minutes > 5)
-                    {
-                        customer.Balance -= 5 * 0.5;
-
-                        minutes = minutes - 5;
-                        customer.Balance -= minutes * 2;
-                    }
-
-                    if (minutes <= 5)
-                    {
-                        customer.Balance -= minutes * 0.5;
-                    }
-
-                    break;
-                }
+            return 0;
         }
     }
 
- }
 
-  
+    class PayLessUpToFiveMinutesRate
+    {
+        string urbanCall;
+        string phoneCall;
+
+        public PayLessUpToFiveMinutesRate()
+        {
+            urbanCall = "городской";
+            phoneCall = "мобильный";
+        }
+
+        public double CalculateTheCostOFTheCall(Customer customer, string callType, int minutes)
+        {
+            if (callType.Equals(urbanCall))
+            {
+                if (minutes > 5)
+                {
+                    customer.balance -= 5 * 2.5;
+
+                    minutes = minutes - 5;
+
+                    return customer.balance -= minutes * 10;
+                }
+
+                if (minutes <= 5)
+                {
+                    return customer.balance -= minutes * 2.5;
+                }
+            }
+            else if (minutes > 5)
+            {
+                customer.balance -= 5 * 0.5;
+
+                minutes = minutes - 5;
+                return customer.balance -= minutes * 2;
+            }
+
+            if (minutes <= 5)
+            {
+                return customer.balance -= minutes * 0.5;
+            }
+
+            return 0;
+        }
+    }
 
 
 
 
 
-        
 
 
-    
+
+
+
+
+
+
 
