@@ -13,20 +13,24 @@ class Customer
     public string name;
     public double balance;
 
-    private Rate rate = new Rate();
+    private Call call = new Call();
 
+
+ 
     public Customer(string name, double balance)
     {
         this.name = name;
         this.balance = balance;
     }
 
+   
+
     public override string ToString()
     {
         return string.Format("Клиент: {0} имеет баланс: {1}", name, balance);
     }
 
-    public void Call(Customer customer) => rate.RecordCall(customer, 20);
+    public void Call(Customer customer) => call.RecordCall(customer, 20);
    
 
 
@@ -34,23 +38,8 @@ class Customer
 
 
 
-class Record
+class Call
 
-{
-    private Customer customer;
-
-   
-
-    public void RecordPayment(double amountPaid)
-    {
-        if (amountPaid > 0)
-            customer.balance += amountPaid;
-    }
-
-
-}
-
-class Rate // тариф
 {
 
     TimeBasedRate timeBasedRate = new TimeBasedRate();
@@ -59,9 +48,8 @@ class Rate // тариф
 
 
 
-    public void RecordCall(Customer customer, int minutes)
+    public void RecordCall( Customer customer, int minutes)
     {
-
 
         Console.WriteLine
             (
@@ -96,6 +84,24 @@ class Rate // тариф
 
     }
 }
+
+
+class Record
+
+{
+    private Customer customer;
+
+   
+
+    public void RecordPayment(double amountPaid)
+    {
+        if (amountPaid > 0)
+            customer.balance += amountPaid;
+    }
+
+
+}
+
 
 
     class TimeBasedRate
