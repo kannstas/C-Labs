@@ -1,0 +1,15 @@
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/CopyFileUpper/bin/Debug/net7.0/CopyFileUpper
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/CopyFileUpper/bin/Debug/net7.0/CopyFileUpper.deps.json
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/CopyFileUpper/bin/Debug/net7.0/CopyFileUpper.runtimeconfig.json
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/CopyFileUpper/bin/Debug/net7.0/CopyFileUpper.dll
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/CopyFileUpper/bin/Debug/net7.0/CopyFileUpper.pdb
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/CopyFileUpper/obj/Debug/net7.0/CopyFileUpper.csproj.AssemblyReference.cache
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/CopyFileUpper/obj/Debug/net7.0/CopyFileUpper.GeneratedMSBuildEditorConfig.editorconfig
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/CopyFileUpper/obj/Debug/net7.0/CopyFileUpper.AssemblyInfoInputs.cache
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/CopyFileUpper/obj/Debug/net7.0/CopyFileUpper.AssemblyInfo.cs
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/CopyFileUpper/obj/Debug/net7.0/CopyFileUpper.csproj.CoreCompileInputs.cache
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/CopyFileUpper/obj/Debug/net7.0/CopyFileUpper.dll
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/CopyFileUpper/obj/Debug/net7.0/refint/CopyFileUpper.dll
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/CopyFileUpper/obj/Debug/net7.0/CopyFileUpper.pdb
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/CopyFileUpper/obj/Debug/net7.0/CopyFileUpper.genruntimeconfig.cache
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/CopyFileUpper/obj/Debug/net7.0/ref/CopyFileUpper.dll
