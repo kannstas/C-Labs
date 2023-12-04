@@ -1,10 +1,28 @@
 ﻿
 using System.Security.Principal;
+using Banking;
 
 class CreateAccount
 {
     static void Main()
     {
+
+        BankAccount firstBankAccount = new BankAccount (534351, 454434, BankAccount.AccountType.Cheking);
+        BankAccount secondBankAccount = new BankAccount(534353, 454434, BankAccount.AccountType.Cheking);
+
+      
+
+        Console.WriteLine(firstBankAccount.Equals(secondBankAccount));
+
+
+        Audit audit = new Audit("AuditTrail.cs");
+        BankTransaction bankTransaction = new BankTransaction(500);
+
+        AuditEventArgs auditEventArgs = new AuditEventArgs(bankTransaction);
+
+        audit.RecordTransaction(auditEventArgs);
+
+
 
 
         using (BankAccount acc1 = new BankAccount())
@@ -85,6 +103,13 @@ sealed class BankAccount : IDisposable
 
 
     private Queue<BankTransaction> tranQueue = new Queue <BankTransaction>();
+
+    public BankAccount(long accNo, decimal accBal, AccountType accType)
+    {
+        this.accNo = accNo;
+        this.accBal = accBal;
+        this.accType = accType;
+    }
 
     public BankAccount ()
     {
@@ -200,7 +225,28 @@ sealed class BankAccount : IDisposable
 
 
 
-    
+   public static bool operator == (BankAccount account1, BankAccount account2)
+    {
+        if (account1.accBal == account2.accBal
+            && account1.accNo == account2.accNo
+            && account1.accType == account2.accType)
+        {
+            return true;
+        } else 
+        return false;
+    }
+
+    public static bool operator != (BankAccount account1, BankAccount account2)
+    {
+        return !(account1 == account2);
+    }
+
+
+    public override bool Equals(object account1)
+    {
+        return this == (BankAccount)account1;
+    }
+
 
 
     public enum AccountType
