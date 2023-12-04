@@ -6,7 +6,7 @@ Administrator administrator = new Administrator("Рогов", "10/12/1999", 5, 1
 
 Manager manager = new Manager("Кудрявцев", "07/02/1980", "математический", "менеджер", 2);
 
-Student student1 = new Student("Кошкина", "06/01/2002", "ПММ", 2);
+Student student1 = new Student("Кошкина", "12/04/2002", "ПММ", 2);
 
 Student student2 = new Student("Егоров", "03/03/2005", "ФКН", 1);
 
