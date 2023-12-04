@@ -1,21 +1,46 @@
 ﻿
+using System.Security.Principal;
+
 class CreateAccount
 {
     static void Main()
     {
-        BankAccount firstBankAccount = NewBankAccount();
 
-        Write(firstBankAccount);
 
-        Withdraw(firstBankAccount);
-            
-        BankAccount secondBankAccount = NewBankAccount();
+        using (BankAccount acc1 = new BankAccount())
+        {
+            acc1.Deposit(100);
+            acc1.Withdraw(50);
+            acc1.Deposit(75);
+            acc1.Withdraw(50);
+            acc1.Withdraw(30);
+            acc1.Deposit(40);
+            acc1.Deposit(200);
+            acc1.Withdraw(250);
+            acc1.Deposit(25);
+            Write(acc1);
 
-        Write(secondBankAccount);
-        
-        TestDeposit(secondBankAccount);
 
-        BankAccount.TransferFrom(firstBankAccount, secondBankAccount, 1000);
+        }
+
+
+
+        // работа с конструкторами
+
+        BankAccount ac1, ac2, ac3, ac4;
+
+        ac1 = new BankAccount();
+        ac2 = new BankAccount(BankAccount.AccountType.Deposit);
+        ac3 = new BankAccount(BankAccount.AccountType.Deposit, 500);
+        ac4 = new BankAccount(100);
+
+        Console.WriteLine(ac1);
+        Console.WriteLine(ac2);
+        Console.WriteLine(ac3);
+        Console.WriteLine(ac4);
+
+        ac3.Withdraw(100);
+        Write(ac3);
 
     }
 
@@ -27,32 +52,8 @@ class CreateAccount
 
         decimal balance = decimal.Parse(Console.ReadLine());
 
-        bankAccount.Populate(balance);
-
 
         return bankAccount;
-    }
-
-    static void TestDeposit (BankAccount bankAccount)
-    {
-        Console.WriteLine("Введите сумму, которую хотите положить на счет");
-        decimal amount = decimal.Parse(Console.ReadLine());
-        if (bankAccount.ValidateTransfer(bankAccount, amount).Equals(true))
-        {
-            bankAccount.Deposit(amount);
-            Write(bankAccount);
-        }
-    }
-
-    static void Withdraw (BankAccount bankAccount)
-    {
-        Console.WriteLine("Введите сумму, которую хотите cписать");
-        decimal amount = decimal.Parse(Console.ReadLine());
-        if (bankAccount.ValidateTransfer(bankAccount, amount).Equals(true))
-        {
-            bankAccount.Withdraw(amount);
-            Write(bankAccount);
-        } 
     }
 
 
@@ -60,55 +61,86 @@ class CreateAccount
     {
         Console.WriteLine($"Номер банковского счета клиента {bankAccount.Number()}, " +
         $"тип банковского счета {bankAccount.Type()}, баланс счета {bankAccount.Balance()}");
+
+        Console.WriteLine("Транзакции:");
+       
+        foreach (BankTransaction transaction in bankAccount.Transaction())
+        {
+            Console.WriteLine($"дата/время {transaction.When}, сумма {transaction.TransactionAmount}");
+        }
     }
 
 }
 
 
-class BankAccount
+sealed class BankAccount : IDisposable
 {
     private long accNo;
     private decimal accBal;
     private AccountType accType;
     private static long nextAccountNumber = 123;
 
+    Object disposed = false;
 
 
 
-    public void Populate(decimal accountBalance)
+    private Queue<BankTransaction> tranQueue = new Queue <BankTransaction>();
+
+    public BankAccount ()
     {
         accNo = NextNumber();
-        accBal = accountBalance;
         accType = AccountType.Cheking;
+        accBal = 0;
     }
 
-
-
-    public bool ValidateTransfer (BankAccount account, decimal amount)
+    public BankAccount (AccountType type)
     {
-        if (amount < 0)
-        {
-            Console.WriteLine("Невозможно добавить на баланс отрицательную сумму");
-            return false;
-        } else if (account.accBal<amount)
-        {
-            Console.WriteLine("Невозможно списать денежные средства");
-            return false;
-        }
-
-        return true;
-
+        accNo = NextNumber();
+        accType = type;
+        accBal = 0;
     }
+
+    public BankAccount (decimal balance)
+    {
+        accNo = NextNumber();
+        accType = AccountType.Cheking;
+        accBal = balance;
+    }
+
+
+    public BankAccount(AccountType type, decimal balance)
+    {
+        accNo = NextNumber();
+        accType = type;
+        accBal = balance;
+    }
+
+
+    public override string ToString()
+    {
+        return $"{accNo},{accType}, {accBal}, {tranQueue}";
+    }
+
+
 
     public decimal Deposit(decimal amount)
     {
-       
-        return accBal += amount;
+        accBal += amount;
+        BankTransaction tran = new BankTransaction(amount);
+        tranQueue.Enqueue(tran);
+        return accBal;
     }
 
-    public decimal Withdraw(decimal amount)
+    public bool Withdraw(decimal amount)
     {
-       return accBal -= amount;
+        bool sufficientFunds = accBal >= amount;
+        if (sufficientFunds)
+        {
+            accBal -= amount;
+            BankTransaction transaction = new BankTransaction(-amount);
+            tranQueue.Enqueue(transaction); 
+        }
+        return sufficientFunds;
 
     }
 
@@ -133,24 +165,43 @@ class BankAccount
         return accType.ToString();
     }
 
-    public static void TransferFrom(BankAccount accountFrom, BankAccount accountWhere, decimal amount)
+
+    public void Dispose ()
     {
-
-        //accountFrom.accBal = accountFrom.accBal- amount;
-        //accountWhere.accBal = accountFrom.accBal + accountWhere.accBal;
-
-        //Console.WriteLine($"Перевод прошел успешно c банковского счета {accountFrom.accNo} (баланс {accountFrom.accBal})" +
-        //    $" на {accountWhere.accNo} (баланс {accountWhere.accBal}) прошел успешно");
-
-        if (accountFrom.ValidateTransfer(accountFrom, amount).Equals(true))
+        if (!(bool)disposed)
         {
-            accountFrom.Withdraw(amount);
-            accountWhere.Deposit(amount);
+            
+        } else if ((bool) disposed)
+        {
+            StreamWriter streamFile = File.AppendText("Transactions.Dat");
+            streamFile.WriteLine($"номер аккаунта  {accNo}");
+            streamFile.WriteLine($"баланс  {accBal}");
+            streamFile.WriteLine($"тип аккаунта {accType}");
+
+            streamFile.WriteLine("Транзакции");
+            foreach (BankTransaction transaction in tranQueue)
+            {
+
+                Console.WriteLine($"дата/время {transaction.When}, сумма {transaction.TransactionAmount}");
+            }
+
+            streamFile.Close();
+            disposed = true;
+            GC.SuppressFinalize(this);
         }
 
-        Console.WriteLine($"Перевод прошел успешно c банковского счета {accountFrom.accNo} (баланс {accountFrom.accBal})" +
-            $" на {accountWhere.accNo} (баланс {accountWhere.accBal}) прошел успешно");
     }
+
+    public Queue<BankTransaction> Transaction ()
+    {
+        
+        return tranQueue;
+    }
+
+
+
+    
+
 
     public enum AccountType
     {

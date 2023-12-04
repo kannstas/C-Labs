@@ -29,12 +29,14 @@ static Triangle AddSidesInTriangle(string answer)
 
         if (newAnswer.Equals("нет"))
         {
+
             Console.WriteLine("Введите стороны треугольника");
             double sideA = double.Parse(Console.ReadLine());
             double sideB = double.Parse(Console.ReadLine());
             double sideC = double.Parse(Console.ReadLine());
 
             return new Triangle(sideA, sideB, sideC);
+
         }
         else if (newAnswer.Equals("да"))
         {
@@ -125,7 +127,7 @@ class Triangle : IComparable
 
     private double sideC;
 
-    public double Area { get; set; } 
+    public double Area { get; set; }
 
     public double Perimeter { get; set; }
 
@@ -135,6 +137,8 @@ class Triangle : IComparable
         this.sideA = sideA;
         this.sideB = sideB;
         this.sideC = sideC;
+
+        ItIsTriangle();
 
         this.Perimeter = CalculatePerimeter();
         this.Area = CalculateArea();
@@ -146,8 +150,12 @@ class Triangle : IComparable
         this.sideB = sideA;
         this.sideC = sideA;
 
+        ItIsTriangle();
+
         this.Perimeter = CalculatePerimeter();
         this.Area = CalculateArea();
+
+
 
     }
 
@@ -168,30 +176,24 @@ class Triangle : IComparable
 
     public double CalculatePerimeter()
     {
-        if (ItIsTriangle() == true)
-        {
-            double perimeter = sideA + sideB + sideC;
 
-            return perimeter;
-        }
-        return 0;
+        double perimeter = sideA + sideB + sideC;
+
+        return perimeter;
+
     }
 
 
 
     public double CalculateArea()
     {
-        if (ItIsTriangle() == true)
-        {
-            double halfPerimeter = Perimeter / 2;
+        double halfPerimeter = Perimeter / 2;
 
-            double areaOfTriangle = Math.Sqrt(halfPerimeter * (halfPerimeter - sideA) * (halfPerimeter - sideB)
-                  * (halfPerimeter - sideC));
+        double areaOfTriangle = Math.Sqrt(halfPerimeter * (halfPerimeter - sideA) * (halfPerimeter - sideB)
+              * (halfPerimeter - sideC));
 
-            return Math.Round(areaOfTriangle, 2);
+        return Math.Round(areaOfTriangle, 2);
 
-        }
-        return 0;
     }
 
 
