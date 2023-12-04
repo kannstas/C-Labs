@@ -1,0 +1,15 @@
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/LearningCenter/bin/Debug/net7.0/LearningCenter
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/LearningCenter/bin/Debug/net7.0/LearningCenter.deps.json
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/LearningCenter/bin/Debug/net7.0/LearningCenter.runtimeconfig.json
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/LearningCenter/bin/Debug/net7.0/LearningCenter.dll
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/LearningCenter/bin/Debug/net7.0/LearningCenter.pdb
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/LearningCenter/obj/Debug/net7.0/LearningCenter.csproj.AssemblyReference.cache
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/LearningCenter/obj/Debug/net7.0/LearningCenter.GeneratedMSBuildEditorConfig.editorconfig
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/LearningCenter/obj/Debug/net7.0/LearningCenter.AssemblyInfoInputs.cache
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/LearningCenter/obj/Debug/net7.0/LearningCenter.AssemblyInfo.cs
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/LearningCenter/obj/Debug/net7.0/LearningCenter.csproj.CoreCompileInputs.cache
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/LearningCenter/obj/Debug/net7.0/LearningCenter.dll
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/LearningCenter/obj/Debug/net7.0/refint/LearningCenter.dll
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/LearningCenter/obj/Debug/net7.0/LearningCenter.pdb
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/LearningCenter/obj/Debug/net7.0/LearningCenter.genruntimeconfig.cache
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/LearningCenter/obj/Debug/net7.0/ref/LearningCenter.dll
