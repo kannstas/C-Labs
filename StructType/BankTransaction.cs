@@ -19,9 +19,6 @@ public class BankTransaction
         when = DateTime.Now;
     }
 
-    public override string ToString()
-    {
-        return base.ToString();
-    }
+   
 }
 
