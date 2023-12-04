@@ -1,0 +1,15 @@
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/HierarchyOfShapes/bin/Debug/net7.0/HierarchyOfShapes
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/HierarchyOfShapes/bin/Debug/net7.0/HierarchyOfShapes.deps.json
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/HierarchyOfShapes/bin/Debug/net7.0/HierarchyOfShapes.runtimeconfig.json
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/HierarchyOfShapes/bin/Debug/net7.0/HierarchyOfShapes.dll
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/HierarchyOfShapes/bin/Debug/net7.0/HierarchyOfShapes.pdb
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/HierarchyOfShapes/obj/Debug/net7.0/HierarchyOfShapes.csproj.AssemblyReference.cache
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/HierarchyOfShapes/obj/Debug/net7.0/HierarchyOfShapes.GeneratedMSBuildEditorConfig.editorconfig
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/HierarchyOfShapes/obj/Debug/net7.0/HierarchyOfShapes.AssemblyInfoInputs.cache
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/HierarchyOfShapes/obj/Debug/net7.0/HierarchyOfShapes.AssemblyInfo.cs
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/HierarchyOfShapes/obj/Debug/net7.0/HierarchyOfShapes.csproj.CoreCompileInputs.cache
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/HierarchyOfShapes/obj/Debug/net7.0/HierarchyOfShapes.dll
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/HierarchyOfShapes/obj/Debug/net7.0/refint/HierarchyOfShapes.dll
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/HierarchyOfShapes/obj/Debug/net7.0/HierarchyOfShapes.pdb
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/HierarchyOfShapes/obj/Debug/net7.0/HierarchyOfShapes.genruntimeconfig.cache
+/Users/itprofil/Desktop/ITMO/C#/MyCSharpLabs/HierarchyOfShapes/obj/Debug/net7.0/ref/HierarchyOfShapes.dll
