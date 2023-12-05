@@ -1,0 +1,15 @@
+/Users/itprofil/Desktop/ITMO/C#/MyClass/bin/Debug/net7.0/MyClass
+/Users/itprofil/Desktop/ITMO/C#/MyClass/bin/Debug/net7.0/MyClass.deps.json
+/Users/itprofil/Desktop/ITMO/C#/MyClass/bin/Debug/net7.0/MyClass.runtimeconfig.json
+/Users/itprofil/Desktop/ITMO/C#/MyClass/bin/Debug/net7.0/MyClass.dll
+/Users/itprofil/Desktop/ITMO/C#/MyClass/bin/Debug/net7.0/MyClass.pdb
+/Users/itprofil/Desktop/ITMO/C#/MyClass/obj/Debug/net7.0/MyClass.csproj.AssemblyReference.cache
+/Users/itprofil/Desktop/ITMO/C#/MyClass/obj/Debug/net7.0/MyClass.GeneratedMSBuildEditorConfig.editorconfig
+/Users/itprofil/Desktop/ITMO/C#/MyClass/obj/Debug/net7.0/MyClass.AssemblyInfoInputs.cache
+/Users/itprofil/Desktop/ITMO/C#/MyClass/obj/Debug/net7.0/MyClass.AssemblyInfo.cs
+/Users/itprofil/Desktop/ITMO/C#/MyClass/obj/Debug/net7.0/MyClass.csproj.CoreCompileInputs.cache
+/Users/itprofil/Desktop/ITMO/C#/MyClass/obj/Debug/net7.0/MyClass.dll
+/Users/itprofil/Desktop/ITMO/C#/MyClass/obj/Debug/net7.0/refint/MyClass.dll
+/Users/itprofil/Desktop/ITMO/C#/MyClass/obj/Debug/net7.0/MyClass.pdb
+/Users/itprofil/Desktop/ITMO/C#/MyClass/obj/Debug/net7.0/MyClass.genruntimeconfig.cache
+/Users/itprofil/Desktop/ITMO/C#/MyClass/obj/Debug/net7.0/ref/MyClass.dll
